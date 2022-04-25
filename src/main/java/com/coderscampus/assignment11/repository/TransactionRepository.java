@@ -26,6 +26,21 @@ public class TransactionRepository {
 			}
 		});
 	}
+	
+//	public List<Transaction> findAll () {
+//		return transactions;
+//	}
+//
+//	@SuppressWarnings("unchecked")
+//	private void populateData() {
+//		try (FileInputStream fileInputStream = new FileInputStream("transactions.txt");
+//			 ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);) {
+//			this.transactions = (List<Transaction>) objectInputStream.readObject();
+//		} catch (IOException | ClassNotFoundException e) {
+//			e.printStackTrace();
+//		} 
+//		
+//	}
 
 	public List<Transaction> findAll() {
 		return transactions;

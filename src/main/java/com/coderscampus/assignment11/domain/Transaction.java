@@ -4,6 +4,10 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+import org.springframework.stereotype.Component;
+
+
+@Component
 public class Transaction implements Serializable, Comparable<Transaction> {
 	private static final long serialVersionUID = 5489045104890844953L;
 	

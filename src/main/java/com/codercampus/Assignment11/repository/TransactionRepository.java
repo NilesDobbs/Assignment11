@@ -1,4 +1,4 @@
-package com.coderscampus.assignment11.repository;
+package com.codercampus.Assignment11.repository;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,7 +11,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.coderscampus.assignment11.domain.Transaction;
+import com.codercampus.Assignment11.domain.Transaction;
 
 @Repository
 public class TransactionRepository {
@@ -21,11 +21,12 @@ public class TransactionRepository {
 		super();
 		populateData();
 	}
-	
+	//Project has issue overwriting .txt file. (FIXED)
 	public List<Transaction> findAll () {
 		return transactions;
 	}
-
+	
+	//Add a for loop for the transactions.txt file when empty to see if its iterating through the list properly.
 	@SuppressWarnings("unchecked")
 	private void populateData() {
 		try {

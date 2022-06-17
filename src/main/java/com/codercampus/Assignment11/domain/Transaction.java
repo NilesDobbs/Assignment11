@@ -1,4 +1,4 @@
-package com.coderscampus.assignment11.domain;
+package com.codercampus.Assignment11.domain;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -6,6 +6,7 @@ import java.time.LocalDateTime;
 
 import org.springframework.stereotype.Component;
 
+//Has an issue identifying the assignment11.Transaction path. 
 
 @Component
 public class Transaction implements Serializable, Comparable<Transaction> {

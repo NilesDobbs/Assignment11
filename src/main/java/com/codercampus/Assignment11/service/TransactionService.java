@@ -1,4 +1,4 @@
-package com.coderscampus.assignment11.service;
+package com.codercampus.Assignment11.service;
 
 import java.util.Collections;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.coderscampus.assignment11.domain.Transaction;
-import com.coderscampus.assignment11.repository.TransactionRepository;
+import com.codercampus.Assignment11.domain.Transaction;
+import com.codercampus.Assignment11.repository.TransactionRepository;
 
 @Service
 public class TransactionService {

@@ -1,7 +1,8 @@
 <html xmlns:th="http://thymeleaf.org">
 
 <head>
- <title>Transactions</title>
+	<title>Transactions</title>
+	<link rel="stylesheet" href="/transactions.css"/>
 </head>
  <body>
 		<div>
@@ -18,7 +19,7 @@
 			<p th:inline="text">Description: [[${transaction.description}]]</p>
 		</div>
 		<div>
-			<a th:href="@{/transactions}">Back</a>
+			<a th:href="@{/transactions}">back</a>
 		</div>
 	</body>
- </html>
+</html> 
